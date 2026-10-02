@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top{
+    border: 5px solid red;
+    border-radius: 3px;
+    height: 80px;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#rubrik{
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#mellan{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 80%;
+    border: 5px solid orange;
+    border-radius:3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#vänster{
+    border: 3px solid black;
+    border-radius: 2px;
+    width: 49%;
+    background-color: yellow;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#höger{
+    border: 3px solid black;
+    border-radius: 2px;
+    width: 49%;
+    background-color: pink;
+    align-items: center;
+    height: 49%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#botten{
+    border: 5px solid yellow;
+    border-radius: 3px;
+    align-items: center;
+    width: 80%;
+}
